@@ -76,8 +76,8 @@
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
               <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
-              <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="pricing.html">Pricing</a></li>
-              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="web-development.html">Web Development</a></li>
+              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="pricing.html">Pricing</a></li>
+              <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="web-development.html">Web Development</a></li>
               <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="user-research.html">User Research</a></li>
             </ul><a class="btn btn-primary order-1 order-lg-0" href="#!">Sign Up</a>
             <form class="d-flex my-3 d-block d-lg-none">
@@ -99,76 +99,168 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-600">
+      <section class="pb-11 pt-7 bg-600">
 
         <div class="container">
           <div class="row">
-            <div class="col">
-              <h6 class="font-sans-serif text-primary fw-bold">Our Plans </h6>
-              <h1 class="mb-6">Get in Reasonable Price</h1>
-            </div>
-            <div class="col">
-              <div class="d-flex justify-content-end">
-                <label class="form-check-label me-2" for="customSwitch1">Monthly</label>
-                <div class="form-check form-switch">
-                  <input class="form-check-input" id="customSwitch1" type="checkbox" checked="checked" />
-                  <label class="form-check-label align-top" for="customSwitch1">Yearly</label>
+            <div class="col-12">
+              <h6 class="font-sans-serif text-primary fw-bold">Course category</h6>
+              <h1 class="mb-6">Web Development</h1>
+              <form class="row g-3">
+                <div class="col-sm-6 col-md-3">
+                  <label class="form-label" for="inputCategories">Categories</label>
+                  <select class="form-select" id="inputCategories">
+                    <option selected="selected">Web development</option>
+                    <option value="1">UX designer</option>
+                  </select>
                 </div>
-              </div>
+                <div class="col-sm-6 col-md-3">
+                  <label class="form-label" for="inputLevel">Level</label>
+                  <select class="form-select" id="inputLevel">
+                    <option selected="selected">All Level</option>
+                    <option value="1">Level 1 </option>
+                    <option value="2">Level 2 </option>
+                    <option value="3">Level 3</option>
+                  </select>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <label class="form-label" for="inputLanguage">Language</label>
+                  <select class="form-select" id="inputLanguage">
+                    <option selected="selected">English</option>
+                    <option value="1">Bangla</option>
+                    <option value="2">Hindi</option>
+                  </select>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <label class="form-label" for="inputInstructor">Instructor</label>
+                  <select class="form-select" id="inputInstructor">
+                    <option selected="selected">All Instructor </option>
+                  </select>
+                </div>
+                <div class="col-auto z-index-2">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+              </form>
             </div>
           </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="pb-0" style="margin-top:-17rem">
+
+        <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-5 mb-md-0 h-100">
-                <div class="text-center mb-5"><span class="badge bg-black fw-normal text-uppercase bg-secondary">Starter</span></div>
-                <div class="card-body px-4 py-6 py-md-5 py-lg-6">
-                  <div class="d-flex justify-content-start text-secondary"><span class="h4 mb-0 mt-2 me-2">$</span><span class="display-3 fw-medium">19.</span><span class="display-4 fw-medium">00</span></div>
-                  <p class="text-muted mb-2 my-md-3">A private limited is the most popular</p>
-                  <hr class="border border-1" />
-                  <ul class="list-unstyled">
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Access to 25 courses</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Course Discussions</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Offline Viewing</li>
-                    <li class="mb-3"><i class="fas fa-check text-muted me-2"></i>Certificate after completion</li>
-                    <li class="mb-3"><i class="fas fa-check text-muted me-2"></i> Private sessions</li>
-                  </ul>
-                  <div class="d-grid"> <a class="btn btn-lg btn-primary" href="#!">Purchase now</a></div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/design.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">User Research for User Experience Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-5 mb-md-0 h-100">
-                <div class="text-center mb-5"><span class="badge bg-black fw-normal text-uppercase bg-info">premium</span></div>
-                <div class="card-body px-4 py-6 py-md-5 py-lg-6">
-                  <div class="d-flex justify-content-start text-secondary"><span class="h4 mb-0 mt-2 me-2">$</span><span class="display-3 fw-medium">29.</span><span class="display-4 fw-medium">00</span></div>
-                  <p class="text-muted mb-2 my-md-3">A private limited is the most popular</p>
-                  <hr class="border border-1" />
-                  <ul class="list-unstyled">
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Access to 25 courses</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Course Discussions</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Certificate after completion</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Offline Viewing</li>
-                    <li class="mb-3"><i class="fas fa-check text-muted me-2"></i> Private sessions</li>
-                  </ul>
-                  <div class="d-grid"><a class="btn btn-lg btn-secondary" href="#!">Purchase now</a></div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/psychology.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Buddhism and Modern Psychology</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-5 mb-md-0 h-100">
-                <div class="text-center mb-5"><span class="badge bg-black fw-normal text-uppercase bg-danger">enterprise</span></div>
-                <div class="card-body px-4 py-6 py-md-5 py-lg-6">
-                  <div class="d-flex justify-content-start text-secondary"><span class="h4 mb-0 mt-2 me-2">$</span><span class="display-3 fw-medium">49.</span><span class="display-4 fw-medium">00</span></div>
-                  <p class="text-muted mb-2 my-md-3">A private limited is the most popular</p>
-                  <hr class="border border-1" />
-                  <ul class="list-unstyled">
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Access to 25 courses</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Course Discussions</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Certificate after completion</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i>Offline Viewing</li>
-                    <li class="mb-3"><i class="fas fa-check text-info me-2"></i> Private sessions</li>
-                  </ul>
-                  <div class="d-grid"> <a class="btn btn-lg btn-primary" href="#!">Purchase now</a></div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/philosophy.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Introduction to Philosophy</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/photographs.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Advance on Seeing Through Photographs</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/arguments.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Think Again I: How to Understand Arguments</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/experience-design.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">User Research for User Experience Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/user-design.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">User Research for User Experience Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/critical-thinking.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Introduction to Logic and Critical Thinking</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/art-design.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Modern and Contemporary Art and Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/user-research.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Modern and Contemporary Art and Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/photographs.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Advance on Seeing Through Photographs</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/ux.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Modern and Contemporary Art and Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/design.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">User Research for User Experience Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/critical-thinking.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Introduction to Logic and Critical Thinking</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/art-design-1.png" alt="courses" />
+                <div class="card-body">
+                  <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Modern and Contemporary Art and Design</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
                 </div>
               </div>
             </div>
@@ -283,7 +375,7 @@
               <p class="fs--1 my-2 text-center text-md-end"> Made with&nbsp;
                 <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#EB6453" viewBox="0 0 16 16">
                   <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-                </svg>&nbsp;by&nbsp;<a class="fw-bold text-900" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
+                </svg>&nbsp;by&nbsp;<a class="fw-bold text-900" href="https://dualsparkstudio.com" target="_blank">DualSpark Studio</a>
               </p>
             </div>
           </div>
